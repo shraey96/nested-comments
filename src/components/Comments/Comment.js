@@ -35,6 +35,7 @@ const Comment = ({ comment }) => {
           ...COMMENT_CARD_STYLE,
           mt: !comment.parentId ? 5 : 2,
         }}
+        id={comment.id}
       >
         <Box sx={FLEX_ALIGN_START}>
           <img

@@ -46,6 +46,15 @@ const Posts = () => {
       ...prevPayload,
       comments: updatedComments,
     }));
+    if (!comment.id) {
+      setTimeout(() => {
+        document.querySelector(`#${commentPayload.id}`)?.scrollIntoView({
+          behavior: "smooth",
+          block: "center",
+          inline: "center",
+        });
+      }, 200);
+    }
   };
 
   const handleCommentDelete = (comment) => {
