@@ -2,6 +2,8 @@
 
 This project has a custom UI for nested comments, built with React.js. It used parent-child relationship to make a structure for comments.
 
+`Comments, Post, Images pulled from: https://www.reddit.com/r/funny/comments/10ucmd6/i_threw_my_cats_toy_from_another_room_and_when_he/`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
