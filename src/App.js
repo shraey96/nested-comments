@@ -19,7 +19,7 @@ function App() {
   return (
     <ThemeProvider theme={APP_THEME}>
       <CssBaseline />
-      <Navbar />
+      <Navbar sticky />
       <Box sx={BOX_STYLE} bgColor="red">
         <Container maxWidth="lg">
           <Posts />

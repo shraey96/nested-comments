@@ -59,7 +59,7 @@ const Posts = () => {
 
   const handleCommentDelete = (comment) => {
     const confirmDelete = window.confirm(
-      "Are you sure you want to delete the post?"
+      "Are you sure you want to delete the comment?"
     );
     if (confirmDelete) {
       const updatedComments = deleteComment(comment, postPayload.comments);
