@@ -31,7 +31,7 @@ const useEventListener = ({
         runHandler,
         options
       );
-  }, [options, ref]);
+  }, [eventName, options, ref]);
 };
 
 export default useEventListener;
